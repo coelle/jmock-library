@@ -5,13 +5,14 @@ jdk:
   - openjdk11
   - oraclejdk11
   - openjdk10
-#  - oraclejdk10
   - openjdk9
   - oraclejdk8 #not supported
 
 matrix:
   allow_failures:
     - jdk: openjdk-ea
+    - jdk: openjdk10  # EOL of OpenJDK 10 was September 2018
+    - jdk: openjdk9   # EOL of OpenJDK  9 was March 2018
     - jdk: oraclejdk8
 
 cache:
