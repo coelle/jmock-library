@@ -52,6 +52,7 @@
         <objenesis.version>3.2</objenesis.version>
         <bsh.version>2.0b6</bsh.version>
         <junit.jupiter.version>5.8.2</junit.jupiter.version>
+        <junit-platform-launcher.version>1.8.2</junit-platform-launcher.version>
         <bytebuddy.version>1.12.7</bytebuddy.version>
 
         <maven-failsafe-surefire-plugin.version>3.0.0-M5</maven-failsafe-surefire-plugin.version>
@@ -342,7 +343,7 @@
             <dependency>
                 <groupId>org.junit.platform</groupId>
                 <artifactId>junit-platform-launcher</artifactId>
-                <version>1.4.2</version>
+                <version>${junit-platform-launcher.version}</version>
             </dependency>
 
             <dependency>
